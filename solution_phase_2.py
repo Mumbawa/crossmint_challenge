@@ -9,7 +9,7 @@ def make_crossmint_logo(goal, polyanets_endpoints, soloons_endpoints,
                         comeths_endpoints):
 
     for i in range(0, len(goal)):
-        print(f'Processing row {i}')
+
         for j in range(0, len(goal[i])):
 
             if goal[i][j] == 'POLYANET':
