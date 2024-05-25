@@ -38,7 +38,7 @@ def main():
 
     api_client = APIClient(BASE_URL, CANDIDATE_ID)
 
-    goal_endpoints = GoalEndpoints(api_client, CANDIDATE_ID)
+    goal_endpoints = GoalEndpoints(api_client)
 
     goal = goal_endpoints.get_goal()['goal']
 
